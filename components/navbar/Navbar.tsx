@@ -10,8 +10,8 @@ function Navbar() {
         <Logo />
         <NavSearch />
         <div className="flex items-center gap-4">
-          <LinksDropdown />
           <DarkMode />
+          <LinksDropdown />
         </div>
       </div>
     </nav>
