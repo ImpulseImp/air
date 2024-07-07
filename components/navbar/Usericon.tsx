@@ -1,4 +1,4 @@
-function Usericon() {
+function UserIcon() {
   return <div>Usericon</div>;
 }
-export default Usericon;
+export default UserIcon;
