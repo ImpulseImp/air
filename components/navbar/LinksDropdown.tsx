@@ -12,6 +12,7 @@ import { Button } from "../ui/button";
 import { links } from "@/utils/links";
 import { SignedOut, SignedIn, SignInButton, SignUpButton } from "@clerk/nextjs";
 import SignOutLink from "./SignOutLink";
+import UserIcon from "./UserIcon";
 function LinksDropdown() {
   return (
     <>
@@ -19,7 +20,8 @@ function LinksDropdown() {
         <DropdownMenuTrigger asChild>
           <Button variant="outline" className="flex max-w-[100px] gap-4">
             <LuAlignLeft className="h-6 w-6" />
-            <LuUser className="h-6 w-6 rounded-full bg-primary text-white" />
+
+            <UserIcon />
           </Button>
         </DropdownMenuTrigger>
         <DropdownMenuContent className="w-52" align="start" sideOffset={10}>
